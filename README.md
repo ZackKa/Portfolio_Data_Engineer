@@ -105,12 +105,14 @@ Chaque dossier correspond à un projet indépendant :
 
 Chaque projet représente une étape clé de mon apprentissage :
 
+```text
 📌 Projets 2–4 : fondamentaux data & manipulation de données
 📌 Projets 5–7 : structuration de pipelines et SQL avancé
 📌 Projets 8–10 : industrialisation avec orchestration (Kestra)
 📌 Projet 11 : introduction au NLP et RAG (POC chatbot)
 📌 Projet 12 : architecture data complète + streaming + BI
 📌 Projet 13 : passage POC → MVP cloud scalable
+```
 
 ## 🏗️ Vision globale
 
