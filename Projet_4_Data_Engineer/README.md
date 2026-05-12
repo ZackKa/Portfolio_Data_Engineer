@@ -46,8 +46,17 @@ Une solution de correction a été proposée et implémentée via :
 - Triggers SQL
 - Analyse de logs transactionnels
 
+## 🏗️ Solution implémentée
+
+- SCD Type 2 sur les prix produits
+- Trigger d’historisation automatique
+- Vue stable pour reporting BI
+
 ## 📈 Résultats obtenus
 - Validation du chiffre d’affaires réel : 284 243,88 €
+- 207 489 logs analysés
+- 575 UPDATE critiques sur les prix produits
+- Identification d’une absence d’historisation des dimensions
 - Identification de la cause racine :
     **mises à jour non historisées des prix produits**
 - Analyse de plus de 200 000 logs transactionnels
@@ -58,6 +67,12 @@ Une solution de correction a été proposée et implémentée via :
     - la fiabilité du reporting BI
 
 **Résultat final : un système analytique cohérent, reproductible et fiable dans le temps.**
+
+## 💡 Impact métier
+
+- Suppression des incohérences dans Power BI
+- Fiabilisation du reporting financier
+- Garantie de stabilité des KPI dans le temps
 
 ## 🧠 Compétences démontrées
 

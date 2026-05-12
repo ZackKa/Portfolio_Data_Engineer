@@ -30,6 +30,15 @@ L’objectif métier était d’évaluer si les données éducatives de la Banqu
 
 ---
 
+### Pipeline de traitement des données
+
+- Ingestion de datasets multi-sources (Banque mondiale)
+- Nettoyage et normalisation des données
+- Transformation (format large → format long → agrégation)
+- Construction d’un dataset analytique final (pays × indicateurs)
+
+---
+
 ## 🔎 Démarche analytique
 
 ### 1. Exploration des données
@@ -91,11 +100,11 @@ L’objectif métier était d’évaluer si les données éducatives de la Banqu
 
 ## 📈 Résultats
 
-- Mise en évidence de fortes disparités de qualité des données
-- Identification des indicateurs les plus exploitables pour l’analyse métier
-- Réduction significative du périmètre d’étude
-- Construction d’un dataset final exploitable pour analyse stratégique
-- Premiers éléments d’aide à la décision pour une expansion internationale
+- Réduction du nombre d’indicateurs à ~15 indicateurs pertinents
+- Construction d’un dataset analytique final structuré (pays × indicateurs)
+- Identification des indicateurs les plus fiables (meilleur taux de complétude)
+- Mise en évidence de fortes disparités de qualité des données selon les pays
+- Première approche de scoring des pays pour l’expansion internationale
 
 ---
 
@@ -103,9 +112,9 @@ L’objectif métier était d’évaluer si les données éducatives de la Banqu
 
 - Data cleaning avancé sur datasets multi-sources
 - Analyse exploratoire de données (EDA)
-- Gestion de la qualité des données
+- Gestion de la qualité des données (valeurs manquantes, incohérences)
 - Feature selection (réduction de dimension métier)
-- Analyse statistique et corrélations
+- Analyse statistique et corrélations (Pearson / Spearman)
 - Structuration d’un raisonnement data orienté business
 
 ---

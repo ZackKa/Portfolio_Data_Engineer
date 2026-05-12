@@ -150,3 +150,7 @@ J’ai pu mettre en pratique :
 * le monitoring et les sauvegardes.
 
 Le pipeline obtenu est fiable, reproductible, industrialisable et répond aux besoins des équipes Data Science de GreenAndCoop.
+
+## 🔗 Lien vers le projet :
+
+https://github.com/ZackKa/Projet_8_data

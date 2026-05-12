@@ -28,6 +28,19 @@ Une seconde partie du projet consistait à industrialiser le modèle via :
 - Construire une API de prédiction en temps réel ;
 - Déployer le modèle dans un environnement Cloud.
 
+## Schéma d'architecture 
+
+```mermaid
+flowchart LR
+    U[User] --> A[API<br/>BentoML]
+    A --> P[Preprocessing]
+    P --> M[Model]
+    M --> R[Prediction]
+
+    A -. Deploy .-> D[Docker]
+    D --> C[Cloud Run]
+```
+
 ## 🛠 Technologies & Outils utilisés
 ### Data Science & Machine Learning
 - Python

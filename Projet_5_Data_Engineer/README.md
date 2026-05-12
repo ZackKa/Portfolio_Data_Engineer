@@ -19,9 +19,14 @@ Le projet avait plusieurs objectifs :
 - Tester la qualité et l’intégrité des données
 - Étudier des solutions de déploiement cloud AWS
 
+## 🏗️ Architecture du projet
+```text
+CSV → Python (ETL) → MongoDB → Docker → Tests
+```
+
 ## 🛠️ Outils & Technologies utilisés
 
-| Catégorie               | Technologies                          |
+| Catégorie                | Technologies                           |
 |--------------------------|----------------------------------------|
 | Langage                  | Python                                 |
 | Base NoSQL               | MongoDB                                |
@@ -172,7 +177,10 @@ Une étude technique a été menée sur plusieurs services AWS :
 #### ✔ Migration réussie
 - 55 500 documents importés
 - Données validées avant insertion
-- Infrastructure automatisée
+- Infrastructure automatisée et reproductible
+- pipeline automatisé
+- base scalable
+- requêtes optimisées
 
 #### ✔ Amélioration de la scalabilité
 

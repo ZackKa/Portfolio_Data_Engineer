@@ -29,6 +29,15 @@ L’objectif était de construire un **Proof of Concept (PoC)** permettant de tr
 
 ---
 
+## 📦 Livrables
+
+- Dictionnaire des données (Excel)
+- Schéma relationnel normalisé (3NF)
+- Base de données SQLite opérationnelle
+- Requêtes SQL analytiques
+
+---
+
 ## 🧱 Architecture & modélisation des données
 
 ### 🔹 Modélisation relationnelle (3NF)
@@ -106,6 +115,13 @@ Le modèle a été conçu pour garantir :
 - Identification des zones à forte valeur immobilière
 - Analyse des dynamiques de marché pour orienter les agences
 - Support à la prise de décision stratégique pour Laplace Immo
+
+## 📊 Résultats clés
+
+- Île-de-France : région avec le plus grand volume de transactions
+- Prix moyen le plus élevé : Paris (~12 000 €/m²)
+- Marché dominé par les biens 2–3 pièces (>60%)
+- Croissance globale du marché : +3,68 %
 
 ---
 
