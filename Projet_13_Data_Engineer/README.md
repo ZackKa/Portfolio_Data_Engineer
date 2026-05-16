@@ -174,7 +174,7 @@ Ce projet m’a permis de :
 - Ajout de nouvelles sources de données
 - Optimisation des performances du RAG
 
-##🧠 Conclusion
+## 🧠 Conclusion
 
 Ce projet démontre ma capacité à :
 

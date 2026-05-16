@@ -197,11 +197,11 @@ Le modèle devient ainsi accessible via une URL publique.
 
 ## 📈 Résultats obtenus
 
-✅ Modèle ML fonctionnel pour la prédiction énergétique des bâtiments
-✅ API REST opérationnelle avec Swagger
-✅ Validation des données utilisateur
-✅ Déploiement Cloud fonctionnel sur GCP
-✅ Architecture portable et industrialisable via Docker
+- ✅ Modèle ML fonctionnel pour la prédiction énergétique des bâtiments
+- ✅ API REST opérationnelle avec Swagger
+- ✅ Validation des données utilisateur
+- ✅ Déploiement Cloud fonctionnel sur GCP
+- ✅ Architecture portable et industrialisable via Docker
 
 ## 🧠 Compétences démontrées
 ### Data Engineering

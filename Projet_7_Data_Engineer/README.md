@@ -254,11 +254,11 @@ MongoDB Sharded Cluster
 ### Résultats du projet
 
 
-✅ Base MongoDB restaurée
-✅ Données validées et analysées
-✅ Dashboard Power BI connecté
-✅ Replica Sets opérationnels
-✅ Architecture shardée mise en place
+- ✅ Base MongoDB restaurée
+- ✅ Données validées et analysées
+- ✅ Dashboard Power BI connecté
+- ✅ Replica Sets opérationnels
+- ✅ Architecture shardée mise en place
 
 ### 🧠 Compétences démontrées
 #### Data Engineering
